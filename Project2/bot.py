@@ -11,6 +11,8 @@ GUILD = os.getenv('DISCORD_GUILD')
 
 client = discord.Client()
 
+
+
 @client.event
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
@@ -32,7 +34,7 @@ async def on_message(message):
     brooklyn_99_quotes = [
         'I\'m the human form of the 💯 emoji.',
         'Bingpot!',
-        (
+        (   
             'Cool. Cool cool cool cool cool cool cool, '
             'no doubt no doubt no doubt no doubt.'
         ),
@@ -47,11 +49,11 @@ async def on_message(message):
         'Caster: Medea of Colchis',
         'Berserker: Heracles',
         'Avenger: Angra Mainyu',
-    ]
+     ]
 
     if message.content == 'Summon!':
         #response = random.choice(brooklyn_99_quotes)
         response = random.choice(gacha_results)
         await message.channel.send(response)
 
-
+client.run(TOKEN)
