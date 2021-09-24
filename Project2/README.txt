@@ -21,3 +21,12 @@ Step 8: download a python version that's 3.7+. You'll need it to run the bot scr
 Step 9: We are going to download 2 libraries for python. discord.py and python-dotenv should be installed with "pip3 install -U" preceding them if you open a shell terminal
 
 Step 10: Run the script with "Python3 bot.py" to get it going.
+
+
+The command for this bot is "Summon!" 
+As of this development, one of the 8 servants from the original Fate/Stay Night series will be printed with both class and name as a reply. 
+Perhaps it will be expanded upon with the full system from Fate/Grand Order.
+
+
+
+To keep the script running, an idea might be to run it from a paird server space, like AWS, and to have it run there 24/7.

@@ -39,7 +39,7 @@ async def on_message(message):
             'no doubt no doubt no doubt no doubt.'
         ),
     ]
-
+    #The potential replies of the bot
     gacha_results = [
         'Saber: Artoria Pendragon',
         'Archer: EMIYA',
@@ -50,7 +50,7 @@ async def on_message(message):
         'Berserker: Heracles',
         'Avenger: Angra Mainyu',
      ]
-
+    #Type "Summon!" to activate the bot script response.
     if message.content == 'Summon!':
         #response = random.choice(brooklyn_99_quotes)
         response = random.choice(gacha_results)
